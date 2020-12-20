@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main-3.css" />
+    <title>リアルタイム表示</title>
+  </head>
+  <body>
+    <form>
+      <div class="search-container">
+      <p>リアルタイムフィルター<br>入力した文字を含まない場合は表示しません</p>
+        <input id='search' type='text'>
+
+      </div>
+    </form>
+      <div class="pictures-container">
+        <ul id="pictures">
+          <li>
+            <div class="container">  
+              <div class="img-container">
+                <img id="dog" src="dog.jpg" value="dog" >
+              </div>
+              <p>
+                キーワード<br>dog 犬
+              </p>
+            </div>
+          </li>
+        
+          <li>
+            <div class="container"> 
+              <div class="img-container">
+                <img id="woman" src="hotdog.jpg" value="woman" >
+              </div>
+              <p>
+              キーワード<br>hotdog ホットドッグ
+              </p>
+            </div>  
+          </li>
+          
+          <li>
+            <div class="container"> 
+              <div class="img-container">
+                <img id="car" src="hotspring.jpg" value="car">
+              </div>
+              <div>
+              キーワード<br>hotspring 温泉
+              </div>
+            </div>  
+          </li>
+          
+          <li>
+            <div class="container"> 
+              <div class="img-container">
+                <img id="sushi" src="dogrun.jpg" value="sushi" >
+              </div>
+              <p>
+              キーワード<br>dogrun　ドッグラン 
+              </p>
+            </div>  
+          </li>
+          
+        </ul>
+      </div>
+    <script src=main-3.js></script>
+  </body>
+    
+</html>
